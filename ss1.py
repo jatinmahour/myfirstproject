@@ -21,8 +21,7 @@ available_indicators = df['Sub_Category'].unique()
 
 #external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.COSMO])
-#server = app.server
-server = ss1:server
+server = app.server
 
 
 #-------------------------------------------------------------------------------------
