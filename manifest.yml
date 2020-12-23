@@ -1,0 +1,4 @@
+applications:
+- name: my-firstdash
+  random-route: true
+  memory: 128M
